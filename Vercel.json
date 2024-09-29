@@ -2,10 +2,11 @@
   "functions": {
     "api/*.php": {
       "runtime": "vercel-php@0.7.1"
-       {
-      },
+          }
+  },
+  "routes": [    
     {
-      "src": "/",
+       "src": "/",
       "dest": "/tp.php",
       "headers": {
         "Cache-Control": "max-age=84000, public"
