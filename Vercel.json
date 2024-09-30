@@ -6,8 +6,8 @@
   },
   "routes": [    
     {
-       "src": "/",
-      "dest": "/tp.php",
+       "src": "/jass",
+      "dest": "/api)tp.php",
       "headers": {
         "Cache-Control": "max-age=84000, public"
       }
